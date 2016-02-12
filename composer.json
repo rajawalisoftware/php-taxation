@@ -1,0 +1,18 @@
+{
+    "name": "ris/tax",
+    "description": "Generic tax library",
+    "authors": [
+        {
+            "name": "Lim Afriyadi",
+            "email": "lim.afriyadi@rajawalisoftware.cm"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ris\\Tax\\": "src/"
+        }
+    }
+}
