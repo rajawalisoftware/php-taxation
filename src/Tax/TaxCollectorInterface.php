@@ -23,9 +23,16 @@ interface TaxCollectorInterface
      */
     public function collect(TaxableInterface $taxable);
     /**
-     * Get collector's tax
+     * Get tax
      * 
      * @return TaxInterface
      */
     public function getTax();
+    /**
+     * Set tax
+     * 
+     * @param \Ris\Tax\TaxInterface $tax
+     * @return TaxCollectorInterface
+     */
+    public function setTax(TaxInterface $tax);
 }
