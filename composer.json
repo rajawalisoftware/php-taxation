@@ -1,6 +1,6 @@
 {
-    "name": "ris/tax",
-    "description": "Generic tax library",
+    "name": "ris/taxation",
+    "description": "Generic taxation library",
     "authors": [
         {
             "name": "Lim Afriyadi",
@@ -8,7 +8,8 @@
         }
     ],
     "require": {
-        "phpspec/phpspec": "~2.0"
+        "phpspec/phpspec": "~2.0",
+        "lla/dci": "1.0.1"
     },
     "autoload": {
         "psr-4": {
