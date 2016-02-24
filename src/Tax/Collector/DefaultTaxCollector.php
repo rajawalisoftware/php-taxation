@@ -29,7 +29,7 @@ class DefaultTaxCollector implements TaxCollectorInterface
      */
     public function __construct(TaxInterface $tax)
     {
-        $this->tax = $tax;
+        $this->setTax($tax);
         
         return $this;
     }
@@ -49,5 +49,10 @@ class DefaultTaxCollector implements TaxCollectorInterface
         $discount = $this->tax->getTaxDiscount($amount);
         
         return $this->getTax()->getCalculator()->calculate($amount - $discount);
+    }
+
+    public function setTax(TaxInterface $tax)
+    {
+        $this->tax = $tax;
     }
 }
