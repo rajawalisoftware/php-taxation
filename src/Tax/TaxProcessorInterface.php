@@ -26,6 +26,7 @@ interface TaxProcessorInterface
      * Add a tax collector
      * 
      * @param \Ris\Tax\TaxCollectorInterface $collector
+     * @return TaxProcessorInterface
      */
     public function addCollector(TaxCollectorInterface $collector);
     /**
