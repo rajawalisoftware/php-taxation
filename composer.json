@@ -15,7 +15,7 @@
     ],
     "require": {
         "phpspec/phpspec": "^3.0",
-        "ris/dci": "^1.0"
+        "ris/dci": "^1.2"
     },
     "autoload": {
         "psr-4": {
