@@ -8,7 +8,7 @@
 
 namespace Ris\Tax\Context;
 
-use LLA\Dci\AbstractContext;
+use Ris\Dci\AbstractContext;
 
 /**
  * Description of TaxProcessingContext
